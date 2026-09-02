@@ -1,0 +1,12 @@
+{
+  "provider": "claude",
+  "model": "claude-opus-4-8",
+  "stat": "eth",
+  "n_boot": 100,
+  "n_perm": 10000,
+  "median_p": 1.0,
+  "p5": 0.595535,
+  "p95": 1.0,
+  "n_valid": 4500,
+  "n_total": 4500
+}

@@ -1,0 +1,12 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "stat": "within",
+  "n_boot": 100,
+  "n_perm": 10000,
+  "median_p": 0.0,
+  "p5": 0.0,
+  "p95": 0.0008599999999999966,
+  "n_valid": 4500,
+  "n_total": 4500
+}

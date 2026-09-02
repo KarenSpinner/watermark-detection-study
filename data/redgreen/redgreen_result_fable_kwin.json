@@ -1,0 +1,9 @@
+{
+  "provider": "fable",
+  "model": "claude-fable-5-1",
+  "median_p": 1.0,
+  "p5": 0.631835,
+  "p95": 1.0,
+  "n_valid": 4500,
+  "n_total": 4500
+}

@@ -1,0 +1,12 @@
+{
+  "provider": "sonnet",
+  "model": "claude-sonnet-5",
+  "stat": "eth",
+  "n_boot": 100,
+  "n_perm": 10000,
+  "median_p": 0.99115,
+  "p5": 0.59915,
+  "p95": 1.0,
+  "n_valid": 4411,
+  "n_total": 4500
+}
