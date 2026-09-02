@@ -1,0 +1,9 @@
+{
+  "provider": "claude",
+  "model": "claude-opus-4-8",
+  "median_p": 1.0,
+  "p5": 0.5990500000000001,
+  "p95": 1.0,
+  "n_valid": 4500,
+  "n_total": 4500
+}

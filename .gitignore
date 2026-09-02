@@ -1,0 +1,16 @@
+# secrets — never commit
+.env
+.env.*
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# local run outputs (the committed grids under data/redgreen/ are the paper's; new runs land here)
+scripts/analysis/
+
+# os
+.DS_Store

@@ -1,0 +1,24 @@
+{
+  "purpose": "Positive/negative control: does each detection design fire on a model KNOWN to be watermarked (ON) and stay null when it is not (OFF)? The ON/OFF contrast on one model cancels base-model determinism and isolates the watermark.",
+  "run_date": "2026-08-22",
+  "hardware": "RunPod RTX 4090 (pod terminated after run)",
+  "model": "mistralai/Mistral-7B-Instruct-v0.1",
+  "watermark": "real SynthID-Text via transformers SynthIDTextWatermarkingConfig",
+  "synthid_config": {"ngram_len": 5, "n_keys": 20, "keys_seed": "hardcoded in cloud_validate.py"},
+  "samples_per_cell": 50,
+  "grid": "10 prefixes x 9 k-values",
+  "statistic": "ETH Red-Green (cross-prefix k-consistency vs 10000-permutation null, median over 100 bootstraps)",
+  "median_p": {
+    "repeat/ON": 0.96055,
+    "repeat/OFF": 0.9995,
+    "random/ON": 0.0,
+    "random/OFF": 0.64945,
+    "window/ON": 0.0,
+    "window/OFF": 0.6475
+  },
+  "verdicts": {
+    "repeat": "BLIND — null even ON (repeated-context masking hides the mark). Confirms the masking hypothesis and a real blind spot in the published ETH design.",
+    "random": "VALID DETECTOR — fires ON (p=0.00), null OFF (p=0.65). Base determinism does not false-positive it.",
+    "window": "VALID DETECTOR — fires ON (p=0.00), null OFF (p=0.65). Base determinism does not false-positive it."
+  }
+}

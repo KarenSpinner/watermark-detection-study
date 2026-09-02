@@ -1,0 +1,13 @@
+model,model_id,design,median_p,fires,notes
+claude-opus,claude-opus-4-8,repeated-digit,1.0000,no,validated method; null
+claude-opus,claude-opus-4-8,random-k,1.0000,no,validated detector; null
+claude-opus,claude-opus-4-8,window-k,1.0000,no,validated detector; null
+claude-sonnet,claude-sonnet-5,repeated-digit,0.9933,no,validated method; null
+claude-sonnet,claude-sonnet-5,random-k,0.9846,no,validated detector; null
+claude-sonnet,claude-sonnet-5,window-k,0.9928,no,validated detector; null
+gemini,gemini-3.5-flash,repeated-digit-k15,0.5796,no,masked (design blind spot)
+gemini,gemini-3.5-flash,repeated-digit-k25,0.6552,no,masked (design blind spot)
+gemini,gemini-3.5-flash,random-k,0.0049,YES,validated detector fires
+gemini,gemini-3.5-flash,window-k,0.0006,YES,validated detector fires
+gpt,gpt-5.2,random-k,0.7042,no,validated detector; null
+gpt,gpt-5.2,window-k,0.7227,no,validated detector; null

@@ -1,0 +1,9 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "median_p": 0.57955,
+  "p5": 0.09717,
+  "p95": 0.999905,
+  "n_valid": 9000,
+  "n_total": 9000
+}

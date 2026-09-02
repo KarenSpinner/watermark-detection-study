@@ -1,0 +1,9 @@
+{
+  "provider": "sonnet",
+  "model": "claude-sonnet-5",
+  "median_p": 0.9846,
+  "p5": 0.978795,
+  "p95": 1.0,
+  "n_valid": 4500,
+  "n_total": 4500
+}
