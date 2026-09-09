@@ -5,7 +5,7 @@ detectors validated on a model watermarked in-house using SynthID. This reposito
 the method and the raw data behind two articles on *Wondering About AI*:
 
 - [A mostly plain language primer on Anthropic's new watermark and how it can be detected](https://wonderingaboutai.substack.com/p/a-mostly-plain-language-primer-on) (August 23, 2026)
-- The follow-up on Claude Fable 5.1 (September 2026, link to be added)
+- [I built a new test and confirmed that Claude Fable 5.1 is watermarked](https://wonderingaboutai.substack.com/p/i-built-a-new-test-and-confirmed) (September 8, 2026)
 
 **Headline findings.**
 
